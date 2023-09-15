@@ -8,10 +8,11 @@ const Header = ()=> {
         <>
         {/* <img src={poster} alt="" className="poster"/> */}
         <header className="text-white flex">
-            <div className="flex justify-between">
-            <a href="#" className="logo flex gap-3 items-center"><img src={logo} alt="" />Movie Box</a>
+            <div className="flex flex-1 justify-between">
+            <a href="#" className="logo flex gap-3 items-center"><img src={logo} alt="" />Movie Boxss</a>
+            <input type="text" placeholder="search movie" id="" />
             <ul className="nav-bar flex items-center">
-                <li><input type="text" placeholder="search movie" id="" /></li>
+                <li></li>
                 <li className="sign-in">sign In</li>
                 <li className="menu icon"><img src={elipse} alt="" /></li>
             </ul>

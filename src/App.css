@@ -49,6 +49,7 @@ span{
   line-height: 56px; /* 116.667% */
 }
 .btn{
+  display: flex;
   border-radius: 6px;
   background: var(--rose-700, #BE123C);
   padding: 6px 16px;
