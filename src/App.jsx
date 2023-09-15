@@ -1,7 +1,10 @@
+import Header from "./header"
+import "./App.css"
 function App() {
   return (
-    <div className="w-screen h-screen bg-amber-400">
-      <p className="text-red-700">Hello world</p>
+    <div>
+      <h1></h1>
+      <Header />
     </div>
   )
 }
