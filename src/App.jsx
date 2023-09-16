@@ -1,10 +1,12 @@
 import Header from "./header"
+import Movies from "./movies"
 import "./App.css"
 function App() {
   return (
     <div>
       <h1></h1>
-      <Header />
+      {/* <Header /> */}
+      <Movies />
     </div>
   )
 }
