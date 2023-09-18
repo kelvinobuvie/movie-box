@@ -56,3 +56,79 @@ span{
   align-items: center;
   gap: 8px;
 }
+
+/* src/components/TopMovies.css */
+
+/* Top Movies Container */
+.top-movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+/* Individual Movie Card */
+.movie-card {
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for Movie Card */
+/* .movie-card:hover {
+  transform: scale(1.05);
+} */
+
+/* Movie Poster */
+.movie-poster {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Movie Title */
+.movie-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Movie Description */
+.movie-description {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Additional Movie Details */
+.movie-details {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #555;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
